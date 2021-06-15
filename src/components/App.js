@@ -14,7 +14,7 @@ class App extends Component {
     }
     render() {
         let relatives=this.relativeList;
-        let index=-1;
+        let index=0;
         return(
             <div id="main">
                <ol key="relativeList">
