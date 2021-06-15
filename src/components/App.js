@@ -20,7 +20,7 @@ class App extends Component {
                <ol key="relativeList">
                    {relatives.map(function(relative) {
                        index+=1;
-                       <li key={`relativeListItem${index}`}>{relative.name}</li>
+                       return (<li key={`relativeListItem${index}`}>{relative.name}</li>);
                    })}
                </ol>
             </div>
